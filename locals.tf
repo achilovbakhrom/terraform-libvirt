@@ -4,7 +4,7 @@ locals {
 
 locals {
   ubuntu_image_name   = "ubuntu.qcow2"
-  ubuntu_image_pool   = "default"
+  ubuntu_image_pool   = "main-pool"
   ubuntu_image_source = "https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img"
   ubuntu_image_format = "qcow2"
 }
